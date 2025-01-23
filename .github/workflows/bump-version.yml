@@ -1,4 +1,4 @@
-name: Bump Version
+name: Bump Package Version
 
 on:
   pull_request:
@@ -8,6 +8,7 @@ on:
 
 jobs:
   bump_version:
+    name: Bump package version
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
