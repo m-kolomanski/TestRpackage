@@ -14,5 +14,5 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 nothello <- function() {
-  print("nothello, world!")
+  print("nothello, world! change")
 }
