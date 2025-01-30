@@ -40,7 +40,7 @@ jobs:
       - name: Remove unnecessary files
         run: |
           shopt -s extglob
-          rm -rf !(your_folder)
+          rm -rf !(page)
         shell: bash
 
       - name: Deploy to GitHub pages 🚀
