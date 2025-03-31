@@ -16,5 +16,6 @@
 hello3 <- function() {
   print("Hello, world!")
   print('added new print')
+  print("hehe")
   return("P")
 }
