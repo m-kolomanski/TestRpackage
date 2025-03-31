@@ -28,7 +28,7 @@ jobs:
     name: Test Coverage
     runs-on: ubuntu-latest
     container:
-      image: "ghcr.io/pharmaverse/admiralci-${{ inputs.r-version }}:latest"
+      image: "ghcr.io/pharmaverse/admiralci-release:latest"
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     outputs:
